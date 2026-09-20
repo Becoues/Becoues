@@ -5,9 +5,9 @@
 
 <br>
 
-My work spans **data engineering, analytics, and AI applications** — from lakehouse architecture and data modeling to retrieval systems and tools people use.
+I build and operate **data platforms**, connecting ingestion and lakehouse modeling with business metrics, application data, and AI-assisted analytics.
 
-I care about what happens beyond the demo: reliable pipelines, inspectable workflows, and thoughtful interfaces.
+My work spans system design, implementation, production operations, and the analysis that makes the data useful.
 
 [Website & writing](https://ziven.cloud/en/) &nbsp; ↗ &nbsp;&nbsp; [All repositories](https://github.com/Becoues?tab=repositories) &nbsp; ↗
 
@@ -15,29 +15,37 @@ I care about what happens beyond the demo: reliable pipelines, inspectable workf
 
 ## Selected work
 
-### 01 &nbsp; [Tag_Minning](https://github.com/Becoues/Tag_Minning)
+### 01 &nbsp; Production lakehouse engineering
 
-A configurable tagging pipeline that combines semantic retrieval, diversity-aware selection, and hierarchical SEO rules.
+Build and operate a layered lakehouse with Dagster, dbt, Spark, and Iceberg, turning application and payment data into reusable analytical models.
 
-Sentence embeddings and FAISS matching feed an MMR selection step, with configurable quotas for the final tag set.
+The work spans incremental processing, partitioned backfills, data quality checks, and production delivery on Kubernetes through GitOps.
 
-<sub>PYTHON &nbsp; / &nbsp; SENTENCE TRANSFORMERS &nbsp; / &nbsp; FAISS &nbsp; / &nbsp; MMR</sub>
+<sub>DAGSTER &nbsp; / &nbsp; DBT &nbsp; / &nbsp; SPARK &nbsp; / &nbsp; ICEBERG &nbsp; / &nbsp; KUBERNETES</sub>
 
-### 02 &nbsp; [iStudy](https://github.com/Becoues/iStudy)
+### 02 &nbsp; Change data capture & operational serving
 
-An AI study workspace that turns a topic into a structured knowledge tree, ready to explore or export to Obsidian.
+Develop PostgreSQL CDC ingestion and publish warehouse-derived user attributes to application-facing data stores.
 
-Two-stage generation separates the outline from the details. Parallel tasks stream progress, with cancellation and retry controls.
+Handle snapshot/change ordering, deletion semantics, and event deduplication. Deliver attributes to DynamoDB through validated imports and versioned table cutovers, retaining the previous version for recovery.
 
-<sub>TYPESCRIPT &nbsp; / &nbsp; NEXT.JS &nbsp; / &nbsp; STREAMING &nbsp; / &nbsp; TASK ORCHESTRATION</sub>
+<sub>POSTGRESQL &nbsp; / &nbsp; AWS DMS &nbsp; / &nbsp; KINESIS &nbsp; / &nbsp; DYNAMODB</sub>
 
-### 03 &nbsp; [iResume](https://github.com/Becoues/iResume)
+### 03 &nbsp; Subscription metrics & product research
 
-A resume analysis app with PDF parsing, modular LLM reports, and streamed progress.
+Define subscription, retention, and revenue metrics across billing sources, reconciling currency units, transaction timing, and payment states.
 
-Bounded concurrency, module-level failure isolation, and structured output validation keep the analysis manageable when individual steps fail.
+Investigate churn through cohort and behavioral analysis, with complete observation windows and explicit leakage checks. Deliver traceable datasets, dashboards, and written findings for product, finance, and audit work.
 
-<sub>TYPESCRIPT &nbsp; / &nbsp; NEXT.JS &nbsp; / &nbsp; LLM WORKFLOWS &nbsp; / &nbsp; PDF PARSING</sub>
+<sub>SQL &nbsp; / &nbsp; DATA MODELING &nbsp; / &nbsp; RECONCILIATION &nbsp; / &nbsp; COHORT ANALYSIS</sub>
+
+### 04 &nbsp; Governed analytics & AI access
+
+Deploy and extend Superset for shared analytics, with MCP access tied to individual user identities and existing role-based permissions.
+
+Implement credential issuance, expiry, and revocation, and validate identity isolation across concurrent requests. Agent access follows the same Superset permissions as interactive use.
+
+<sub>SUPERSET &nbsp; / &nbsp; MCP &nbsp; / &nbsp; RBAC &nbsp; / &nbsp; PYTHON &nbsp; / &nbsp; ARGO CD</sub>
 
 <br>
 
@@ -45,9 +53,10 @@ Bounded concurrency, module-level failure isolation, and structured output valid
 
 | Area | What I work with |
 | :--- | :--- |
-| **Data systems** | Python, SQL, Spark, dbt · lakehouse architecture, batch and streaming pipelines, data modeling |
-| **Applied AI** | Embeddings, vector search, RAG · retrieval quality, structured generation, workflow orchestration |
-| **Product engineering** | TypeScript, Next.js, Astro · usable interfaces, streaming interactions, developer tooling |
+| **Data platforms** | Python, SQL, Dagster, dbt, Spark, Iceberg · orchestration, incremental models, data quality |
+| **Ingestion & serving** | PostgreSQL, DMS, Kinesis, DynamoDB · change capture, state reconstruction, application data delivery |
+| **Analytics & AI** | Superset, MCP, cohort analysis · metric definitions, reconciliation, governed data access |
+| **Platform operations** | Kubernetes, Helm, Argo CD, GitHub Actions · GitOps, deployment checks, environment isolation |
 
 <br>
 
