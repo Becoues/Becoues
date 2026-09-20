@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Ziven Liu — Data platforms &amp; applied AI</title>
+  <desc id="description">An editorial cover in warm ivory and charcoal. Three connected, gently curved layers suggest data moving through a system.</desc>
+  <style>
+    @media (max-width: 600px) {
+      .detail { display: none; }
+      .name { font-size: 156px; }
+      .subtitle { font-size: 52px; transform: translateY(32px); }
+    }
+  </style>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#D9D5CB"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="420" rx="3" fill="#F4F1E9"/>
+  <g class="detail" font-family="Arial, Helvetica, sans-serif" fill="#67665F">
+    <text x="58" y="53" font-size="13" letter-spacing="2.5">ENGINEERING / DATA / AI</text>
+    <text x="1142" y="53" text-anchor="end" font-size="13" letter-spacing="2">BECOUES</text>
+  </g>
+  <path class="detail" d="M58 75H1142" stroke="#D9D5CB"/>
+  <text class="name" x="54" y="211" font-family="Georgia, 'Times New Roman', serif" font-size="108" letter-spacing="-4" fill="#242521">Ziven Liu</text>
+  <text class="subtitle" x="59" y="273" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#484A43">Data platforms &amp; applied AI.</text>
+  <g class="detail" aria-hidden="true">
+    <rect x="784" y="98" width="348" height="228" fill="url(#grid)"/>
+    <path d="M821 242L922 197C936 191 947 191 961 197L1083 251C1091 255 1091 262 1083 266L981 311C968 317 956 317 943 311L821 257C813 253 813 246 821 242Z" fill="#E4E5DA" stroke="#777C68" stroke-width="1.5"/>
+    <path d="M821 195L922 150C936 144 947 144 961 150L1083 204C1091 208 1091 215 1083 219L981 264C968 270 956 270 943 264L821 210C813 206 813 199 821 195Z" fill="#E9E0D4" stroke="#8F8476" stroke-width="1.5"/>
+    <path d="M821 148L922 103C936 97 947 97 961 103L1083 157C1091 161 1091 168 1083 172L981 217C968 223 956 223 943 217L821 163C813 159 813 152 821 148Z" fill="#F4F1E9" stroke="#343831" stroke-width="1.5"/>
+    <path d="M853 151L942 112M877 162L966 123M901 173L990 134M925 184L1014 145M949 195L1038 156" stroke="#B8B8AA" stroke-width="1.2"/>
+    <path d="M837 283L865 271M1083 119L1055 131" stroke="#AFAE9F" stroke-width="1.5"/>
+    <path d="M962 160V290" stroke="#C16C4F" stroke-width="2" stroke-dasharray="3 6"/>
+    <circle cx="962" cy="160" r="12" fill="#C16C4F" stroke="#F4F1E9" stroke-width="4"/>
+    <circle cx="962" cy="207" r="5" fill="#C16C4F"/>
+    <circle cx="962" cy="254" r="5" fill="#C16C4F"/>
+  </g>
+  <path d="M58 346H1142" stroke="#D9D5CB"/>
+  <g class="detail" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#67665F" letter-spacing="1.4">
+    <text x="59" y="381">SYSTEMS WITH DEPTH. PRODUCTS WITH CARE.</text>
+    <text x="1142" y="381" text-anchor="end">SHANGHAI, CHINA</text>
+  </g>
+</svg>
